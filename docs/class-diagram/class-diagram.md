@@ -60,7 +60,7 @@ class Users {
 	    -Long order_id
 	    -Long user_id
 	    -Long total_price
-	    -Long total_discount
+	    -Long total_discount_rate
 	    -Int order_state
 	    -Int payment_state
 	    -Timestamp created_at
