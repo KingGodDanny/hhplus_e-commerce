@@ -79,7 +79,7 @@ PRODUCT ||--o{ ORDER_PRODUCT: ""
         LONG order_product_id PK "주문 상품 ID"
         LONG order_id FK "주문 ID"
         LONG product_id FK "상품 ID"
-        INT order_quantity "상품 개수"
+        INT product_quantity "상품 개수"
         DECIMAL product_price "상품 금액"
         TIMESTAMP created_at "생성일시"
     }
