@@ -75,7 +75,7 @@ class Users {
 	    -Long order_product_id
 	    -Long order_id
 	    -Long product_id
-	    -Int order_quantity
+	    -Int product_quantity
 	    -Decimal product_price
 	    -Timestamp created_at
     }
